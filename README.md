@@ -153,7 +153,7 @@ to implement this behavior.
 
 There are a number of new _errors_ that can occur now that we have function
 declarations and calls.  Your implementation should catch all of these cases
-_statically_; that is, before the program runs, in `well_formed_e`:
+_statically_; that is, before the program runs, in `well_formed_e` or `well_formed_d`:
 
 - A function application with the wrong number of arguments should signal an
   error containing the string "Arity"
