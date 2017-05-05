@@ -162,7 +162,7 @@ _statically_; that is, before the program runs, in `well_formed_e` or `well_form
 - A function declaration with duplicate names in the argument list should
   report an error containg the string "Duplicate parameter"
 - If there are multiple function definitions with the same name, report an
-  error containing the string "Duplicate function"
+  error containing the string "Duplicate function" _(This has been done for you)_
 
 Again, these errors should stop the program from compiling, _not_ happen at
 runtime.  See the notes
